@@ -1,6 +1,6 @@
 Name:		wayback
 Version:	0.2
-Release:	1
+Release:	2
 Source0:	https://gitlab.freedesktop.org/wayback/wayback/-/archive/%{version}/%{name}-%{version}.tar.gz
 Summary:	X11 compatibility layer leveraging wlroots and Xwayland
 URL:		https://gitlab.freedesktop.org/wayback/wayback
@@ -16,6 +16,8 @@ BuildRequires:  pkgconfig(wayland-protocols)
 BuildRequires:  pkgconfig(xkbcommon)
 BuildRequires:  pkgconfig(wayland-scanner)
 BuildRequires:  pkgconfig(scdoc)
+
+Requires:       xwayland
 
 %description
 %summary.
