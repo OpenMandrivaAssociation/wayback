@@ -1,6 +1,8 @@
+%global debug_package %{nil}
+
 Name:		wayback
-Version:	0.2
-Release:	2
+Version:	0.3
+Release:	1
 Source0:	https://gitlab.freedesktop.org/wayback/wayback/-/archive/%{version}/%{name}-%{version}.tar.gz
 Summary:	X11 compatibility layer leveraging wlroots and Xwayland
 URL:		https://gitlab.freedesktop.org/wayback/wayback
